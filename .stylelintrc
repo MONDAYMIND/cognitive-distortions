@@ -1,0 +1,9 @@
+extends:
+  - stylelint-config-rational-order
+
+plugins:
+  - stylelint-order
+
+rules:
+  declaration-empty-line-before: null
+  at-rule-no-unknown: null
