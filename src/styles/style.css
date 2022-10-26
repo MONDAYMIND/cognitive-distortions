@@ -41,9 +41,9 @@ section {
 }
 
 h1, h2, h3 {
-  margin-top: 0;
   position: relative;
   z-index: 2;
+  margin-top: 0;
   color: var(--main);
   font-weight: 400;
   font-family: 'Neucha', cursive;
@@ -65,8 +65,8 @@ h3 {
 /* Header */
 
 header {
-  background-color: var(--light);
   overflow-x: hidden;
+  background-color: var(--light);
 }
 
 h1 {
@@ -79,7 +79,6 @@ h1 {
   top: 55px;
   right: -270px;
   z-index: 1;
-
   height: 525px;
 }
 
@@ -138,15 +137,15 @@ h1 {
 
 .flex-cards {
   display: flex;
-  justify-content: space-between;
-  padding-top: 100px;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: space-between;
+  padding-top: 100px;
 }
 
 .flex-card {
-  height: 275px;
   width: 302px;
+  height: 275px;
   padding: 24px;
   color: var(--dark);
   text-decoration: none;
@@ -162,9 +161,9 @@ h1 {
 }
 
 .card-title {
+  width: 350px;
   margin: 0;
   padding: 0;
-  width: 350px;
   color: var(--white);
   font-size: 52px;
   background-color: var(--main-dark);
@@ -210,22 +209,22 @@ a.flex-card:hover .card-item-title {
 
 .distortion-header {
   display: flex;
-  margin-bottom: 100px;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 .distortion-img {
-  width: 578px;
   position: relative;
   z-index: 1;
+  width: 578px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .main-theme-title {
   margin: 0;
   color: var(--translucent-dark);
-  font-family: 'Neucha', cursive;
   font-size: 24px;
+  font-family: 'Neucha', cursive;
 }
 
 .distortion-header h2 {
@@ -241,18 +240,18 @@ a.flex-card:hover .card-item-title {
 }
 
 .distortion-description {
-  font-family: 'Neucha', cursive;
   font-size: 34px;
+  font-family: 'Neucha', cursive;
   line-height: 1.2;
 }
 
 .manifest-distortion-title {
   position: relative;
-  margin-bottom: 20px;
-  padding-left: 10px;
+  z-index: 1;
   width: 1110px;
   height: 26px;
-  z-index: 1;
+  margin-bottom: 20px;
+  padding-left: 10px;
   color: var(--white);
   font-weight: 700;
   font-size: 14px;
@@ -271,22 +270,22 @@ a.flex-card:hover .card-item-title {
 }
 
 .flex-manifest-item {
-  margin: 0;
   flex: 0 1 540px;
+  margin: 0;
 }
 
 /* Footer */
 
 footer {
-  text-align: center;
   font-size: 14px;
+  text-align: center;
 }
 
 .footer-updates {
-  margin-bottom: 76px;
   display: flex;
   width: 100%;
   height: 190px;
+  margin-bottom: 76px;
   color: var(--white);
   background-color: var(--main-dark);
 }
@@ -303,8 +302,8 @@ footer {
 .footer-email label {
   display: block;
   margin-bottom: 9px;
-  text-align: start;
   font-size: 18px;
+  text-align: start;
 }
 
 .footer-email-input {
@@ -313,11 +312,11 @@ footer {
 
 .footer-email-input input {
   box-sizing: border-box;
-  padding: 0 15px;
-  height: 50px;
   width: 393px;
-  border-radius: 0%;
+  height: 50px;
+  padding: 0 15px;
   border: 1px solid #E3E3E3;
+  border-radius: 0%;
 }
 
 .footer-email-input input::placeholder {
@@ -331,13 +330,13 @@ footer {
 }
 
 .footer-button {
-  box-sizing: border-box;
   position: relative;
-  padding: 0;
-  height: 50px;
+  box-sizing: border-box;
   width: 70px;
-  border: none;
+  height: 50px;
+  padding: 0;
   background-color: var(--main);
+  border: none;
 }
 
 .footer-button::before {
@@ -355,8 +354,8 @@ footer {
 
 .footer-rules {
   margin-top: 0;
-  text-align: start;
   font-size: 12px;
+  text-align: start;
 }
 
 .footer-rules-link {
