@@ -117,7 +117,7 @@ h1 {
 }
 
 .description h2 {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .description p {
@@ -132,7 +132,7 @@ h1 {
 
 /* Navigation */
 
-#navigation {
+.navigation-container {
   background-color: var(--main-dark);
 }
 
