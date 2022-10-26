@@ -109,7 +109,7 @@ h1 {
   background-color: #EA7600;
 }
 
-/* Description */
+/* Video section */
 
 .description {
   margin-bottom: -200px;
@@ -121,6 +121,7 @@ h1 {
 }
 
 .description p {
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
@@ -138,9 +139,10 @@ h1 {
 
 .flex-cards {
   display: flex;
+  justify-content: space-between;
   padding-top: 100px;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
 }
 
 .flex-card {
