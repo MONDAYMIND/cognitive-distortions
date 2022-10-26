@@ -117,7 +117,7 @@ h1 {
 }
 
 .description h2 {
-  margin-bottom: 25px;
+  margin-bottom: 28px;
 }
 
 .description p {
@@ -132,7 +132,7 @@ h1 {
 
 /* Navigation */
 
-.navigation-container {
+#navigation {
   background-color: var(--main-dark);
 }
 
@@ -145,12 +145,16 @@ h1 {
 }
 
 .flex-card {
-  height: 300px;
+  height: 275px;
   width: 302px;
   padding: 24px;
   color: var(--dark);
   text-decoration: none;
   background-color: var(--light);
+}
+
+.big-card {
+  height: 300px;
 }
 
 .card-title span {
