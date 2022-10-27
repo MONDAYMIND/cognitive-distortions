@@ -1,11 +1,11 @@
 {
-  "name": "layout-designer-project-lvl1",
+  "name": "cognitive-distortions",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/MONDAYMIND/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/MONDAYMIND/layout-designer-project-lvl1/actions)",
+  "description": "[![Actions Status](https://github.com/MONDAYMIND/cognitive-distortions/workflows/hexlet-check/badge.svg)](https://github.com/MONDAYMIND/cognitive-distortions/actions)",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MONDAYMIND/layout-designer-project-lvl1.git"
+    "url": "git+https://github.com/MONDAYMIND/cognitive-distortions.git"
   },
   "author": "Anna Steksova",
   "license": "ISC",
